@@ -1,11 +1,23 @@
 {
   "name": "binaryclock",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "Chris Shepherd",
+  "license": "MIT",
+  "description": "A clock. In binary. Displaying three 6bit numbers: hours, minutes and seconds.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LonelessCodes/binaryclock.git"
+  },
+  "keywords": [
+    "binary",
+    "clock"
+  ],
+  "bugs": {
+    "url": "https://github.com/LonelessCodes/binaryclock/issues"
+  },
+  "homepage": "http://loneless.org/clock"
 }
