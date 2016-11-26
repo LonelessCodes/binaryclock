@@ -14,7 +14,6 @@
 			outline: none;
 			border:none;
 			background:none;
-			cursor:default;
 		}
 		body, html {
 			margin:0;
@@ -45,6 +44,18 @@
 		.clock > div > div.on {
 			background: white;
 		}
+		.github {
+			position:fixed;
+			bottom: 20px;
+			right: 20px;
+			text-align:right;
+			font-size: 14px;
+			font-family: Arial;
+		}
+		.github a {
+			color: #ddd;
+			text-decoration: none;
+		}
 		</style>
 	</head>
 	<body>			
@@ -52,6 +63,9 @@
 			<div class="hour"></div>
 			<div class="minute"></div>
 			<div class="second"></div>
+		</div>
+		<div class="github">
+			<a href="https://github.com/LonelessCodes/binaryclock">binaryclock on Github</a>
 		</div>
 		<script>
 			var hours = document.querySelector(".hour");
